@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                                 output.accept(ModItems.SAPPHIRE.get());
                                 output.accept(ModItems.RAW_SAPPHIRE.get());
                                 output.accept(Items.DIAMOND);
+                                output.accept(ModItems.DRAGON_BALL.get());
                             })
                             .build());
 
