@@ -3,5 +3,9 @@
   "item.tutorialmod.raw_sapphire": "Raw Sapphire",
   "item.tutorialmod.dragon_ball": "Dragon Ball",
 
+  "block.tutorialmod.sapphire_block": "Sapphire Block",
+  "block.tutorialmod.raw_sapphire_block": "Raw Sapphire Block",
+  "block.tutorialmod.test_block": "Test Block",
+
   "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
 }

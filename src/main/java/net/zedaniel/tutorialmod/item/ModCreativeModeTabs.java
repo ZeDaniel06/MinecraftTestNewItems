@@ -10,6 +10,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.zedaniel.tutorialmod.TutorialMod;
+import net.zedaniel.tutorialmod.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -24,6 +25,9 @@ public class ModCreativeModeTabs {
                                 output.accept(ModItems.RAW_SAPPHIRE.get());
                                 output.accept(Items.DIAMOND);
                                 output.accept(ModItems.DRAGON_BALL.get());
+                                output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                                output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                                output.accept(ModBlocks.TEST_BLOCK.get());
                             })
                             .build());
 
