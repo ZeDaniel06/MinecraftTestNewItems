@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#@#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "@": {
+      "item": "tutorialmod:sapphire"
+    }
+  },
+  "result": {
+    "item":"tutorialmod:dragon_ball"
+  }
+
+}
